@@ -22,3 +22,11 @@
 
 ## Se podrá observar que los documentos se encuentran guardados en la base creada
 ![image](https://user-images.githubusercontent.com/66144847/131357768-c203611d-0a40-4380-8ede-e8010294a8a3.png)
+
+# Ejercicio 5
+## Utilizando la libreria de npm llamada tiktok-scraper se realiza la recopilación de información de los videos que tengan el hashtag de Tokio2020.
+![image](https://user-images.githubusercontent.com/58042139/131403562-4433ec08-0321-4524-858b-7309a5389cd2.png)
+## Una vez realizada la recopilación se cargan los datos en una base de datos local de MySql
+![image](https://user-images.githubusercontent.com/58042139/131403933-c44e5b59-1486-4185-99e8-9ecce2933566.png)
+![image](https://user-images.githubusercontent.com/58042139/131404071-a0eb9d8d-08d1-4ff9-8df8-e1b05c9fee09.png)
+![image](https://user-images.githubusercontent.com/58042139/131404112-e7983741-0e24-40bd-8ef4-ee4d42f58f6e.png)
