@@ -30,3 +30,11 @@
 ![image](https://user-images.githubusercontent.com/58042139/131403933-c44e5b59-1486-4185-99e8-9ecce2933566.png)
 ![image](https://user-images.githubusercontent.com/58042139/131404071-a0eb9d8d-08d1-4ff9-8df8-e1b05c9fee09.png)
 ![image](https://user-images.githubusercontent.com/58042139/131404112-e7983741-0e24-40bd-8ef4-ee4d42f58f6e.png)
+
+# Ejercicio 6
+## Dentro del administrador de base de datos PHPMyAdmin se realiza la exportación de la base de datos en formato JSON. Unicamente se los exporta a mongodb y se ve reflejada.
+![image](https://user-images.githubusercontent.com/58042139/131406561-4f9cae86-ea2c-4ead-a8e1-166724dd0e69.png)
+![image](https://user-images.githubusercontent.com/58042139/131406596-da7eda60-f941-4147-b0f2-7b1b8f3a853c.png)
+![image](https://user-images.githubusercontent.com/58042139/131406891-14d4eb7f-228a-4afe-8fab-d03c0e930b0b.png)
+### Se puede observar los 20 items que forman parte de un arreglo
+![image](https://user-images.githubusercontent.com/58042139/131408015-f7093c9f-0c18-49a1-910f-aa42a895a16b.png)
