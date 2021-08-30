@@ -1,4 +1,4 @@
-# Correcci-n_examen
+# Correccion_examen
 # Ejercicio 1
 ## Dentro de couchdb se crea una base de datos llamada "olimpiccities" en la cual se guardaran los tweets recopilados en la ubicación insertada con las coordenadas.
 ![image](https://user-images.githubusercontent.com/58042139/131230857-4d1dd408-393f-4f02-9427-8fc4db4cb673.png)
@@ -14,3 +14,11 @@
 ![image](https://user-images.githubusercontent.com/58042139/131232137-b9719cb3-3374-49ad-961d-5b7d340e4494.png)
 
 # Ejercicio 4
+## Se crea una base de datos y una coleccion llamada "facebook" en MongoDB, por el momento estas están vacías
+![image](https://user-images.githubusercontent.com/66144847/131356930-d82790f5-816f-46e4-b04b-0761f23438af.png)
+
+## Se conecta a la base utilizando PyMongo y se extraen posts de Facebook de la página "Olympics" utilizando la librería facebook-scraper. El script se encarga de separar los elementos del post y guardarlos uno por uno como documentos, si la operación tiene éxito, aparece un mensaje de post guardado, de lo contrario, aparece un mensaje de error y se salta al siguiente post. Este script se ejecuta hasta que se lo interrumpa con el teclado.
+![image](https://user-images.githubusercontent.com/66144847/131357543-f98d6f17-a37c-42a5-9ae5-d0cdec900bee.png)
+
+## Se podrá observar que los documentos se encuentran guardados en la base creada
+![image](https://user-images.githubusercontent.com/66144847/131357768-c203611d-0a40-4380-8ede-e8010294a8a3.png)
