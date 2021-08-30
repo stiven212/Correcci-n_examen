@@ -38,3 +38,8 @@
 ![image](https://user-images.githubusercontent.com/58042139/131406891-14d4eb7f-228a-4afe-8fab-d03c0e930b0b.png)
 ### Se puede observar los 20 items que forman parte de un arreglo
 ![image](https://user-images.githubusercontent.com/58042139/131408015-f7093c9f-0c18-49a1-910f-aa42a895a16b.png)
+
+# Ejercicio 7
+## Se realiza la conexión entre couchdb y mongodb a travez de pymongo, y mediante un for se va iterando en la base de datos de couch mientras se inserta en la base de mongodb.
+![image](https://user-images.githubusercontent.com/58042139/131410850-04edd7b6-18b3-498a-a219-2c1f2001c8d7.png)
+
