@@ -65,3 +65,10 @@
 ![image](https://user-images.githubusercontent.com/66144847/131431124-36496ee6-f45f-4b2e-b731-a403905f664c.png)
 
 ## Alternativamente se puede crear un script para subir directamente a Atlas, esto se hizo con los datos de Twitter, el script utiliza la cadena de conexión generada en Atlas para conectarse e insertar los datos en el cluster, este script se puede observar en el archivo 8.py
+![image](https://user-images.githubusercontent.com/66144847/131435370-dfa86e00-d7e3-44ec-9677-00c6973ffa48.png)
+
+## Luego de importar todos los datos a Atlas las bases de datos del cluster se verán así
+![image](https://user-images.githubusercontent.com/66144847/131435473-85319313-78f1-4593-8427-dfb4673a9574.png)
+
+# Ejercicio 9
+## 
