@@ -1,4 +1,5 @@
 # Correccion_examen
+## Mateo Borja, Stiven López
 # Ejercicio 1
 ## Dentro de couchdb se crea una base de datos llamada "olimpiccities" en la cual se guardaran los tweets recopilados en la ubicación insertada con las coordenadas.
 ![image](https://user-images.githubusercontent.com/58042139/131230857-4d1dd408-393f-4f02-9427-8fc4db4cb673.png)
@@ -70,5 +71,15 @@
 ## Luego de importar todos los datos a Atlas las bases de datos del cluster se verán así
 ![image](https://user-images.githubusercontent.com/66144847/131435473-85319313-78f1-4593-8427-dfb4673a9574.png)
 
-# Ejercicio 9
-## 
+# Ejercicio 9 y 10
+## Para exportar una base de datos de atlas, la opción mas sencilla es conectarse desde MongoDB Compass, para esto se obtiene el string de conexión del cluster y se lo pega en compass
+![image](https://user-images.githubusercontent.com/66144847/131436382-c838e8fc-d42b-4652-87a7-06e87c0ad2b8.png)
+![image](https://user-images.githubusercontent.com/66144847/131436415-0b847cf1-03ed-4dfc-bd43-42d9501c40ff.png)
+
+## Una vez conectado al cluster, se puede usar la misma opción de exportación vista anteriormente para exportar cada colección como JSON y CSV
+![image](https://user-images.githubusercontent.com/66144847/131437306-dd9d0703-73da-4c3d-a1bb-357633dced55.png)
+![image](https://user-images.githubusercontent.com/66144847/131437367-eebc9f98-d9d1-494b-8510-989496b96fa4.png)
+![image](https://user-images.githubusercontent.com/66144847/131437406-862b1d4e-9b76-4c82-968f-1c0e489abfc5.png)
+![image](https://user-images.githubusercontent.com/66144847/131437492-159d00b7-c7df-4822-9561-0f141d76284b.png)
+
+## Esta exportación puede ser impráctica cuando se tengan muchas bases de datos, por lo que se deberán explorar otras opciones si se da el caso
