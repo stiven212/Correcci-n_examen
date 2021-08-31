@@ -36,10 +36,32 @@
 ![image](https://user-images.githubusercontent.com/58042139/131406561-4f9cae86-ea2c-4ead-a8e1-166724dd0e69.png)
 ![image](https://user-images.githubusercontent.com/58042139/131406596-da7eda60-f941-4147-b0f2-7b1b8f3a853c.png)
 ![image](https://user-images.githubusercontent.com/58042139/131406891-14d4eb7f-228a-4afe-8fab-d03c0e930b0b.png)
-### Se puede observar los 20 items que forman parte de un arreglo
+## Se puede observar los 20 items que forman parte de un arreglo
 ![image](https://user-images.githubusercontent.com/58042139/131408015-f7093c9f-0c18-49a1-910f-aa42a895a16b.png)
 
 # Ejercicio 7
 ## Se realiza la conexión entre couchdb y mongodb a travez de pymongo, y mediante un for se va iterando en la base de datos de couch mientras se inserta en la base de mongodb.
 ![image](https://user-images.githubusercontent.com/58042139/131410850-04edd7b6-18b3-498a-a219-2c1f2001c8d7.png)
 
+# Ejercicio 8
+## Para subir todos los resultados a MongoDB Atlas primero se procede a crear una base de datos en un cluster. Atlas permite solo un cluster gratuito a la vez, por lo tanto se creará una nueva base en un cluster previamente creado
+![image](https://user-images.githubusercontent.com/66144847/131426182-76cf2bba-c33a-4691-805e-44a3fe650eb5.png)
+
+## Se exporta la colección de datos de facebook en formato JSON
+![image](https://user-images.githubusercontent.com/66144847/131426707-3ab3637b-bf3d-46da-a050-2ce8afb2a23d.png)
+
+## Se pueden insertar los datos en atlas de forma manual haciendo click en "insert document" y pegando el contenido del json generado anteriormente
+![image](https://user-images.githubusercontent.com/66144847/131427398-d12e7358-1c38-44c0-9118-919ceabd087f.png)
+![image](https://user-images.githubusercontent.com/66144847/131427484-070b1022-7707-4b1a-b184-e023b3d4ad17.png)
+![image](https://user-images.githubusercontent.com/66144847/131428436-f0e90a77-cb24-432c-bac3-d1e770018ce3.png)
+
+## Un cluster al estar ubicado en la nube, se pueden invitar colaboradores para que puedan añadir datos
+![image](https://user-images.githubusercontent.com/66144847/131429864-03db669b-d847-4470-8626-d5642965511f.png)
+
+## Los colaboradores aparecerán en la lista de acceso y se podrá eliminarlos o modificar sus permisos si se requiere
+![image](https://user-images.githubusercontent.com/66144847/131430588-14dd73a9-d3f0-45f2-a240-3ca849cb25e2.png)
+
+## Se procede a crear mas colecciones para el resto de datos
+![image](https://user-images.githubusercontent.com/66144847/131431124-36496ee6-f45f-4b2e-b731-a403905f664c.png)
+
+## Alternativamente se puede crear un script para subir directamente a Atlas, esto se hizo con los datos de Twitter, el script utiliza la cadena de conexión generada en Atlas para conectarse e insertar los datos en el cluster, este script se puede observar en el archivo 8.py
